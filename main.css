@@ -191,7 +191,7 @@ form button:hover{
 
 input:focus, textarea:focus{
     border-bottom-color: rgb(130, 10, 209);
-    padding: 100px;
+    height: 200px;
 }
 
 input:focus::placeholder, textarea:focus::placeholder {

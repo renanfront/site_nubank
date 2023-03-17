@@ -196,7 +196,8 @@ input:focus, textarea:focus{
 
 input:focus::placeholder, textarea:focus::placeholder {
     color: rgb(130, 10, 209);
-    font-size: 10px;
+    font-size: 1px;
+    font-weight: bold;
 }
 
 form textarea{

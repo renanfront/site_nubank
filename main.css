@@ -42,7 +42,7 @@ header nav li{
 header nav li a:hover{
     font-weight:600;
     text-decoration: underline;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 header nav ul li a{
@@ -163,7 +163,7 @@ form button{
     display: block;
     width: 320px;
     margin-bottom: 8px;
-    padding: 8px;
+    padding: 8px 0;
     border: transparent;
     background-color: transparent;
     border-bottom: 1px solid rgb(217, 217, 217);
@@ -187,17 +187,20 @@ form button{
 
 form button:hover{
     background-color: rgb(145, 18, 230);
+    transition: 1s;
 }
 
 input:focus, textarea:focus{
     border-bottom-color: rgb(130, 10, 209);
-    height: 50px;
+    padding-bottom: 30px;
+    transition: 450ms;
 }
 
 input:focus::placeholder, textarea:focus::placeholder {
     color: rgb(130, 10, 209);
-    font-size: 8px;
-    font-weight: bold;
+    font-size: 10px;
+    transition: 600ms;
+
 }
 
 form textarea{
